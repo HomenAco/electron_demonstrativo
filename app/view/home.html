@@ -1,0 +1,52 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home da Pagina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="../public/css/home.css" />
+
+</head>
+<header id="titlebar">
+    <div id="drag-region">
+        <div id="window-controls">
+            <div class="button" id="min-button">
+                <span>&#xE921;</span>
+            </div>
+            <div class="button" id="max-button">
+                <span>&#xE922;</span>
+            </div>
+            <div class="button" id="restore-button">
+                <span>&#xE923;</span>
+            </div>
+            <div class="button" id="close-button">
+                <span>&#xE8BB;</span>
+            </div>
+        </div>
+        <div id="window-title">
+            <ul class="windows-menu">
+                <!-- Icone do aplicativo-->
+                <li style="
+                padding-left: 12px; 
+                 -webkit-app-region: drag;
+                 padding-right: 5px;
+
+                 "><i class="fab fa-angular"></i></li>
+                 <!-- fim do Icone do aplicativo-->
+                <li><div class="click-menu">Arquivo</div></li>
+                <li><div class="click-menu">Configurações</div></li>
+                <li><div class="click-menu">Sobre</div></li>
+                <li><div class="click-menu" onclick="voltarLogin()">Voltar</div></li>
+        
+            </ul>
+        </div>
+        </div>
+</header>
+    <div id="main">
+        <h1>Olá mundo!</h1>
+        <p>Um programa demonstrativo..</p>
+    </div>
+<script src="../public/js/home.js"></script>
+</html>

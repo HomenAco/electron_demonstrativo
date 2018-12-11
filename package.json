@@ -1,0 +1,21 @@
+{
+  "name": "app_electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "build --dir",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build":{
+  "appId": "Demonstrativo",
+  "productName": "Programa Edu"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.10"
+  }
+}
